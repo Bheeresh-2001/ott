@@ -29,7 +29,7 @@ body{
 .nav-link{
     display: flex;
     margin-top: 7px;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 .nav-item:link{
     color: blue;
