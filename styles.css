@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(94, 88, 88);
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+/* LOGO START*/
+.brand-logo{
+    background-color: rgb(211, 204, 204);
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+}
+.logo{
+    height: 50px;
+    width: 85px;
+    margin-top: 0px;
+    margin-left: -2px;
+    display: flex;
+}
+/* LOGO END */
+
+/* NAVIGATION START */
+.nav-link{
+    display: flex;
+    margin-top: 7px;
+    margin-left: 120px;
+}
+.nav-item:link{
+    color: blue;
+}
+.nav-item{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-item:visited{
+    color: green;
+}
+.nav-item a:hover{
+    color: red;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px bisque;
+}
+.nav-sign{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* animation: loade 1s ease-in ; */
+    animation: bounce 1s ease infinite alternate;
+}
+@keyframes bounce{
+    0%{opacity: 1;}
+    from{
+        transform: translate(0);
+    }
+    50%{opacity: .5;}
+    to{
+        transform: translate(0,10px);
+    }
+    100%{opacity: 1;}
+}
+
+.nav-sign:visited{
+    color: green;
+}
+.nav-sign:hover{
+        color: red;
+        font-size: 20px;
+        text-shadow: 2px 2px 2px bisque;
+}
+/* NAVIGATION END */
+/* search bar start */
+.nav-search{
+    margin-top: 7px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 40px;
+}
+.nav-search:focus{
+    width: 200px;
+}
+.nav-sub{
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 22px;
+    margin-top: 3px;
+    height: 30px;
+}
+.nav-sub:hover{
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+.sbutton{
+    height: 20px;
+    margin-top: 2px;  
+}
+/* search bar end */
+
+/* CAROUSEL START */
+#carouselExampleAutoplaying{
+    margin-top: 73px;
+}
+.carousel-item active{
+    height: 73px;
+    /* width: 100%; */
+}
+.carousel-item{
+    width: 100%;
+    height: 665px;
+}
+/* CAROUSEL END */
+
+/* MOVIES START */
+.d-block{
+    width: 100%;
+    height: 600px;
+    margin-top: 54px;
+}
+.carousel-slide{
+    overflow: hidden;
+}
+h1{
+    font-size: 60px;
+    /* color:cornsilk; */
+    color: lightgreen;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.bigbox{
+    width: 98%;
+    height: 845px;
+    border: 2px white solid;
+    border-radius: 10px;
+
+}
+.line1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.line{
+    display: flex;
+    justify-content: space-evenly;
+}
+.smallboxes{
+    height: 395px;
+    width: 253px;
+    border: 2px white solid;
+    margin-top: 16px;
+}
+.line1 img:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    border-radius: 5px;
+}
+.smallboxes img{
+    height: 392px;
+    width: 250px;
+} 
+/* MOVIES END */
+
+/* ABOUT START */
+.about{
+    display: flex;
+    color: rgb(84, 216, 44);
+    justify-content: space-evenly;
+}
+.about h2{
+    font-size: 38px;
+}
+.about p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    
+}
+.line1 img:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    border-radius: 5px;
+}
+.copyright{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+/* ABOUT END */
